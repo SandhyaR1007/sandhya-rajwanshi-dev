@@ -6,10 +6,18 @@ const Navbar = () => {
       <div className="navbar__navbrand">Sandhya</div>
       <div className="navbar__navlinks">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <span>01.</span>About
+          </li>
+          <li>
+            <span>02.</span>Experience
+          </li>
+          <li>
+            <span>03.</span>Work
+          </li>
+          <li>
+            <span>04.</span>Contact
+          </li>
           <li>Resume</li>
         </ul>
       </div>

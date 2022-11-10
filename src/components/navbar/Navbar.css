@@ -7,6 +7,7 @@
 }
 .navbar__navbrand {
   color: var(--purple);
+  cursor: pointer;
 }
 .navbar__navlinks > ul {
   list-style: none;
@@ -16,12 +17,17 @@
 }
 .navbar__navlinks > ul > li {
   margin: 0 1rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   cursor: pointer;
   font-weight: 600;
 }
 .navbar__navlinks > ul > li:hover {
   color: var(--purple);
+  transition: color 0.2s ease-in;
+}
+.navbar__navlinks > ul > li > span {
+  color: var(--purple);
+  margin: 0 0.4rem;
 }
 li:last-child {
   color: var(--purple);
