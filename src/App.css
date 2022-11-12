@@ -1,4 +1,8 @@
 .app {
-  background-color: var(--purple-black);
-  padding: 0 2rem;
+  /* background-color: var(--purple-black); */
+  padding: 0 3rem;
+  position: relative;
+}
+ul {
+  list-style: none;
 }

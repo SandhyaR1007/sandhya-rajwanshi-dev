@@ -1,0 +1,29 @@
+.sidebarRight {
+  position: fixed;
+  bottom: 0;
+  right: 3rem;
+  color: var(--dark-slate);
+}
+.sidebarRight__list {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebarRight__list::after {
+  content: "";
+  display: inline-block;
+  width: 1.5px;
+  height: 100px;
+  background-color: var(--dark-slate);
+  bottom: 0;
+}
+.sidebarRight__list > li {
+  margin: 1rem 0rem;
+}
+/* .sidebarRight__line {
+    height: 400px;
+    width: 3px;
+    background-color: var(--dark-slate);
+  } */
