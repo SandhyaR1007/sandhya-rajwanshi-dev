@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+.about {
+  max-width: 800px;
+  margin: 1rem auto;
+}
+.about__heading {
+  position: relative;
+}
+.about__heading-count {
+  color: var(--yellow);
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.about__heading-name {
+  font-size: var(--font-l);
+  color: var(--slate);
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.about__heading-bar {
+  width: 200px;
+  height: 0.05px;
+  background-color: var(--slate);
+  opacity: 0.2;
+  position: absolute;
+  top: 50%;
+}
+.about__description {
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+}
+.about__description-content {
+  width: 100%;
+  color: var(--dark-slate);
+  font-size: var(--font-m);
+  word-break: break-all;
+}
+.about__desciption-image__img {
+  object-fit: contain;
+  width: 250px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .about__description {
+    flex-direction: row;
+  }
+  .about__description-content {
+    width: 60%;
+  }
+  .about__description-image {
+    width: 40%;
+
+    text-align: right;
+  }
+}
