@@ -4,35 +4,15 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
-      Header
-      <h1>
-        After this, we should have our deployment visible in CodePush. The last
-        step is to go to settings (the wrench icon in the upper right corner)
-        and check our deployment keys. We should have two because CodePush makes
-        two branches by default. We will need these codes later when we are
-        sending our updates.
-      </h1>
-      <h1>
-        After this, we should have our deployment visible in CodePush. The last
-        step is to go to settings (the wrench icon in the upper right corner)
-        and check our deployment keys. We should have two because CodePush makes
-        two branches by default. We will need these codes later when we are
-        sending our updates.
-      </h1>
-      <h1>
-        After this, we should have our deployment visible in CodePush. The last
-        step is to go to settings (the wrench icon in the upper right corner)
-        and check our deployment keys. We should have two because CodePush makes
-        two branches by default. We will need these codes later when we are
-        sending our updates.
-      </h1>
-      <h1>
-        After this, we should have our deployment visible in CodePush. The last
-        step is to go to settings (the wrench icon in the upper right corner)
-        and check our deployment keys. We should have two because CodePush makes
-        two branches by default. We will need these codes later when we are
-        sending our updates.
-      </h1>
+      <p className="header__intro-line">Hi, my name is</p>
+      <h1>Sandhya Rajwanshi</h1>
+      <h1>I build amazing stuff for web.</h1>
+      <p>
+        I’m a Frontend Developer specializing in React JS. I love working with
+        frontend technologies and build amazing{" "}
+        <span className="header__ending"> web applications.</span>
+      </p>
+      <button className="header__about-btn">About me</button>
     </div>
   );
 };
