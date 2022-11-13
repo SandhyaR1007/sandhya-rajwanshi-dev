@@ -1,8 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(true);
+  const [showShadow, setShowShadow] = useState(false);
+  const transitionNavbar = () => {
+    if (window.scrollY < 50) {
+      setShowNav(true);
+      setShowShadow(true);
+    } else {
+      setShowNav(false);
+      setShowShadow(false);
+    }
+    if (window.scrollY == 0) {
+      setShowShadow(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", transitionNavbar);
+
+    return () => window.removeEventListener("scroll", transitionNavbar);
+  }, [showNav]);
+
   return (
-    <div className="navbar">
+    <div
+      className={`${showNav ? "navbar" : ""} ${
+        showShadow ? "navbar__shadow " : ""
+      } `}
+    >
       <div className="navbar__navbrand">Sandhya</div>
       <div className="navbar__navlinks">
         <ul className="navbar__navlinks-list">
