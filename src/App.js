@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import About from "./components/about/About";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import SidebarLeft from "./components/sidebarLeft/SidebarLeft";
@@ -12,6 +13,7 @@ const App = () => {
       <SidebarLeft />
       <SidebarRight />
       <Header />
+      <About />
     </div>
   );
 };
