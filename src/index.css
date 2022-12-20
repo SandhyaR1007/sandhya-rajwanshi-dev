@@ -27,6 +27,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   background-color: var(--yellow-black);
+  overflow-x: hidden;
 }
 
 code {
@@ -48,5 +49,5 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--yellow-black);
   /* background-color: var(--dark-slate);
    */
-  background-color: rgb(0, 0, 0, 0.3);
+  background-color: rgb(0, 0, 0, 0);
 }
