@@ -34,7 +34,7 @@ const Navbar = () => {
             <span>01.</span>About
           </li>
           <li className="navbar__navlinks-list-item">
-            <span>02.</span>Experience
+            <span>02.</span>Technologies
           </li>
           <li className="navbar__navlinks-list-item">
             <span>03.</span>Work
