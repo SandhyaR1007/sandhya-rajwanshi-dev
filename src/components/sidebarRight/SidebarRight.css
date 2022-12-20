@@ -19,14 +19,12 @@
   background-color: var(--dark-slate);
   bottom: 0;
 }
-.sidebarRight__list > li {
+.sidebarRight__list-text {
   margin: 1rem 0rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
-/* .sidebarRight__line {
-    height: 400px;
-    width: 3px;
-    background-color: var(--dark-slate);
-  } */
+
 /* break points  */
 @media only screen and (max-width: 768px) {
   .sidebarRight {

@@ -3,12 +3,11 @@ import "./SidebarRight.css";
 const SidebarRight = () => {
   return (
     <div className="sidebarRight">
-      <ul className="sidebarRight__list">
-        <li>G</li>
-        <li>L</li>
-        <li>T</li>
-        <li>M</li>
-      </ul>
+      <div className="sidebarRight__list">
+        <span className="sidebarRight__list-text">
+          rajwanshi989sr@gmail.com
+        </span>
+      </div>
     </div>
   );
 };
