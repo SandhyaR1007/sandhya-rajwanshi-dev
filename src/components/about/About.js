@@ -1,15 +1,17 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "../../assets/about-img.svg";
+import HeaderTop from "../header-top/HeaderTop";
 
 const About = () => {
   return (
     <section className="about">
-      <div className="about__heading">
+      {/* <div className="about__heading">
         <span className="about__heading-count">01.</span>
         <span className="about__heading-name">About Me</span>
         <span className="about__heading-bar"></span>
-      </div>
+      </div> */}
+      <HeaderTop count={"01"} headingName={"About Me"} />
       <section className="about__description">
         <div className="about__description-content">
           <p>

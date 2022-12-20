@@ -1,8 +1,13 @@
 .app {
   /* background-color: var(--yellow-black); */
-  padding: 0 3rem;
+  padding: 0;
   position: relative;
 }
 ul {
   list-style: none;
+}
+.components {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 2rem;
 }
