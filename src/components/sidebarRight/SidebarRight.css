@@ -23,6 +23,7 @@
   margin: 1rem 0rem;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  cursor: pointer;
 }
 
 /* break points  */

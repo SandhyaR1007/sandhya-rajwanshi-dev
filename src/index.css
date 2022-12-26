@@ -2,6 +2,7 @@
   /* --yellow: #c3a6ff; */
   --yellow: #ffc312;
   --yellow-black: #0e0d0e;
+  --yellow-mid-black: #151410;
   --teal: #78d8ff;
   --teal-black: #0c0b20;
   --slate: #f5f5f5;
@@ -10,9 +11,11 @@
   --font-xs: 11px;
   --font-s: 13px;
   --font-m: 14px;
+
   --font-l: 25px;
   --font-xl: 46px;
   --font-xxl: 56px;
+  --font-socials: 18px;
   --border-radius: 4px;
 }
 * {
